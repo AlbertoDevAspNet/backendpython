@@ -14,7 +14,7 @@ cursos = []
     
 @app.get("/")
 def home():
-    return {"message": "Bienvenido a la API de Cursos"}
+    return {"message": "Bem Vindo a  API de Cursos"}
 
 @app.get("/cursos")
 def exibir_cursos(): 
